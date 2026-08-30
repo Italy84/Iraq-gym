@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.iraq_gym">
-   <application
+    <application
         android:label="Iraq Gym"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
@@ -17,5 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
     </application>
 </manifest>
